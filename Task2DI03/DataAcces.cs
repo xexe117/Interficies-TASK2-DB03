@@ -28,16 +28,16 @@ namespace Task2DI03
             }
         }
 
-        public static ProductModel GetProducts(int productModelID)
+        public static List<Product> GetProducts(int productModelID)
         {
             using (IDbConnection conec = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("AdventureWorks2016")))
             {
                 string sql = $@"SELECT ProductID, Size FROM Production.Product
-	                            WHERE Product.ProductModelID = 9
+	                            WHERE Product.ProductModelID = {productModelID}
 	                            ORDER BY Size;";
 
-                var productModel = conec.Query<ProductModel>(sql).FirstOrDefault();
-                return productModel;
+                var products = conec.Query<Product>(sql).ToList();
+                return products;
             }
         }
     }

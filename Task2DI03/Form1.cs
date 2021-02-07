@@ -25,10 +25,12 @@ namespace Task2DI03
             Image largePhoto = Image.FromStream(ms);
             pictureBox1.Image = largePhoto;
 
+            productModel.ProductSizes = DataAcces.GetProducts(int.Parse(findTextBox.Text));
+
             foreach (Product product in productModel.ProductSizes)
             {
                 Button sizeButton = new Button();
-                sizeButton.Text = product.ProductId + "/" + product.Size;
+                sizeButton.Text = product.Size;
                 sizeButton.Name = product.ProductId.ToString();
                 flowLayoutPanel1.Controls.Add(sizeButton);
             }
