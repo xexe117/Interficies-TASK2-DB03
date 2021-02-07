@@ -11,10 +11,8 @@ namespace Task2DI03
 {
     class DataAcces
     {
-        public static ProdductModel GetProdductModel(int productModelID)
+        public static ProductModel GetProductModel(int productModelID)
         {
-            //string conectionString = "Data Source=spdiv2020.database.windows.net;Initial Catalog=Task1DB;User ID=spdiv;Password=********;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
-
             using (IDbConnection conec = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("AdventureWorks2016")))
             {
                 string sql = $@"SELECT DISTINCT ProductModel.ProductModelID, ProductModel.Name, 
@@ -25,28 +23,22 @@ namespace Task2DI03
                              JOIN Production.ProductPhoto ON ProductProductPhoto.ProductPhotoID = ProductPhoto.ProductPhotoID
                              WHERE Product.ProductModelID = {productModelID} ";
 
-                var productModel = conec.Query<ProdductModel>(sql).FirstOrDefault();
+                var productModel = conec.Query<ProductModel>(sql).FirstOrDefault();
                 return productModel;
             }
         }
 
-        //public static ProdductModel GetProdductModel(int productModelID)
-        //{
-        //    //string conectionString = "Data Source=spdiv2020.database.windows.net;Initial Catalog=Task1DB;User ID=spdiv;Password=********;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static ProductModel GetProducts(int productModelID)
+        {
+            using (IDbConnection conec = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("AdventureWorks2016")))
+            {
+                string sql = $@"SELECT ProductID, Size FROM Production.Product
+	                            WHERE Product.ProductModelID = 9
+	                            ORDER BY Size;";
 
-        //    using (IDbConnection conec = new System.Data.SqlClient.SqlConnection(Helper.CnnVal("AdventureWorks2016")))
-        //    {
-        //        string sql = $@"SELECT DISTINCT ProductModel.ProductModelID, ProductModel.Name, 
-	       //                  ProductPhoto.LargePhoto                             
-        //                     FROM Production.ProductModel
-        //                     JOIN Production.Product ON ProductModel.ProductModelID = Product.ProductModelID
-        //                     JOIN Production.ProductProductPhoto ON Product.ProductID = ProductProductPhoto.ProductID
-        //                     JOIN Production.ProductPhoto ON ProductProductPhoto.ProductPhotoID = ProductPhoto.ProductPhotoID
-        //                     WHERE Product.ProductModelID = {productModelID} ";
-
-        //        var productModel = conec.Query<ProdductModel>(sql).FirstOrDefault();
-        //        return productModel;
-        //    }
-        //}
+                var productModel = conec.Query<ProductModel>(sql).FirstOrDefault();
+                return productModel;
+            }
+        }
     }
 }
