@@ -10,7 +10,16 @@ namespace Task2DI03
     {
         public int ProductModelID { get; set; }
         public string Name { get; set; }
+        public double ListPrice { get; set; }
         public byte[] LargePhoto { get; set; }
         public List<Product> ProductSizes { get; set; }
+        public string fullInfo
+        {
+            get
+            {
+                return $"{ ProductModelID }: { Name } | { ListPrice }";
+            }
+        }
+
     }
 }

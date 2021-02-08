@@ -40,3 +40,4 @@ C:\Users\xesc2\Desktop\Task2DI03\git here\Interficies-TASK2-DB03\Task2DI03\obj\D
 C:\Users\xesc2\Desktop\Task2DI03\git here\Interficies-TASK2-DB03\Task2DI03\obj\Debug\Task2DI03.csproj.CopyComplete
 C:\Users\xesc2\Desktop\Task2DI03\git here\Interficies-TASK2-DB03\Task2DI03\obj\Debug\Task2DI03.exe
 C:\Users\xesc2\Desktop\Task2DI03\git here\Interficies-TASK2-DB03\Task2DI03\obj\Debug\Task2DI03.pdb
+C:\Users\xesc2\Desktop\Task2DI03\git here\Interficies-TASK2-DB03\Task2DI03\obj\Debug\Task2DI03.Menu.resources
