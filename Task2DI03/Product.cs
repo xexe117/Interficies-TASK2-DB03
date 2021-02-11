@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task2DI03
 {
-    class Product
+    public class Product
     {
         public int ProductId { get; set; }
         public string Size { get; set; }

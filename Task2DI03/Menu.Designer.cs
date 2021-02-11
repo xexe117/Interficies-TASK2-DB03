@@ -71,6 +71,7 @@
             this.serchButt.TabIndex = 8;
             this.serchButt.Text = "Buscar";
             this.serchButt.UseVisualStyleBackColor = true;
+            this.serchButt.Click += new System.EventHandler(this.serchButt_Click);
             // 
             // pictureBox
             // 
@@ -82,6 +83,7 @@
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox.TabIndex = 7;
             this.pictureBox.TabStop = false;
+            this.pictureBox.Click += new System.EventHandler(this.pictureBox_Click);
             // 
             // Menu
             // 
