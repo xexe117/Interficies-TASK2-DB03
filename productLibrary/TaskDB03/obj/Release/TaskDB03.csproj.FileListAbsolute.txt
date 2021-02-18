@@ -1,0 +1,16 @@
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\TaskDB03.exe.config
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\TaskDB03.exe
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\TaskDB03.pdb
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\Dapper.dll
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\productLibrary.dll
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\productLibrary.pdb
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\productLibrary.dll.config
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\bin\Release\Dapper.xml
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.csprojAssemblyReference.cache
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.Form1.resources
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.Properties.Resources.resources
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.csproj.GenerateResource.cache
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.csproj.CoreCompileInputs.cache
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.csproj.CopyComplete
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.exe
+C:\Users\Alumne\source\repos\productLibrary\TaskDB03\obj\Release\TaskDB03.pdb

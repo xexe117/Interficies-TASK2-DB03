@@ -1,0 +1,12 @@
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Release\productLibrary.dll.config
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Release\productLibrary.dll
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Release\productLibrary.pdb
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Release\Dapper.dll
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Release\Dapper.xml
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.Menu.resources
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.csproj.GenerateResource.cache
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.csproj.CopyComplete
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.dll
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.pdb
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Release\productLibrary.csprojAssemblyReference.cache

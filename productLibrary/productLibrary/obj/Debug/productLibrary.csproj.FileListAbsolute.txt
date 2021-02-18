@@ -1,0 +1,12 @@
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Debug\productLibrary.dll.config
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Debug\productLibrary.dll
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Debug\productLibrary.pdb
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Debug\Dapper.dll
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\bin\Debug\Dapper.xml
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.csprojAssemblyReference.cache
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.Menu.resources
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.GenerateResource.cache
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.CopyComplete
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.dll
+C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.pdb
