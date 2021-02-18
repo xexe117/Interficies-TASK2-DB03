@@ -30,41 +30,43 @@
         {
             this.infoLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.menu1 = new Task2DI03.Menu();
+            this.menu1 = new productLibrary.Menu();
             this.SuspendLayout();
             // 
             // infoLabel
             // 
             this.infoLabel.AutoSize = true;
-            this.infoLabel.Location = new System.Drawing.Point(23, 22);
+            this.infoLabel.Location = new System.Drawing.Point(31, 27);
+            this.infoLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.infoLabel.Name = "infoLabel";
-            this.infoLabel.Size = new System.Drawing.Size(0, 13);
+            this.infoLabel.Size = new System.Drawing.Size(0, 17);
             this.infoLabel.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 5;
             // 
             // menu1
             // 
-            this.menu1.Location = new System.Drawing.Point(3, 12);
+            this.menu1.Location = new System.Drawing.Point(2, 3);
             this.menu1.Name = "menu1";
-            this.menu1.Size = new System.Drawing.Size(563, 340);
+            this.menu1.Size = new System.Drawing.Size(759, 426);
             this.menu1.TabIndex = 6;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menu1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.infoLabel);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -75,7 +77,7 @@
         #endregion
         private System.Windows.Forms.Label infoLabel;
         private System.Windows.Forms.Label label1;
-        private Menu menu1;
+        private productLibrary.Menu menu1;
     }
 }
 
