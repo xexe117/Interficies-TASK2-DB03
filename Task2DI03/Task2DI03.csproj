@@ -100,10 +100,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\productLibrary\productLibrary\productLibrary.csproj">
+    <ProjectReference Include="..\productLibrary\productLibrary\productLibrary.csproj">
       <Project>{390E08B4-ED16-41E3-A3DB-F6852E2D90FA}</Project>
       <Name>productLibrary</Name>
     </ProjectReference>

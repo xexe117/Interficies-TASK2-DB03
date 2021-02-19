@@ -30,7 +30,6 @@
         {
             this.listBoxInfo = new System.Windows.Forms.ListBox();
             this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.findTextBox = new System.Windows.Forms.TextBox();
             this.serchButt = new System.Windows.Forms.Button();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
@@ -39,37 +38,26 @@
             // listBoxInfo
             // 
             this.listBoxInfo.FormattingEnabled = true;
-            this.listBoxInfo.ItemHeight = 16;
-            this.listBoxInfo.Location = new System.Drawing.Point(3, 10);
-            this.listBoxInfo.Margin = new System.Windows.Forms.Padding(4);
+            this.listBoxInfo.Location = new System.Drawing.Point(2, 8);
             this.listBoxInfo.Name = "listBoxInfo";
-            this.listBoxInfo.Size = new System.Drawing.Size(380, 20);
+            this.listBoxInfo.Size = new System.Drawing.Size(286, 17);
             this.listBoxInfo.TabIndex = 16;
             // 
             // flowLayoutPanel
             // 
-            this.flowLayoutPanel.Location = new System.Drawing.Point(388, 77);
-            this.flowLayoutPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.flowLayoutPanel.Location = new System.Drawing.Point(291, 37);
+            this.flowLayoutPanel.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
-            this.flowLayoutPanel.Size = new System.Drawing.Size(324, 336);
+            this.flowLayoutPanel.Size = new System.Drawing.Size(243, 273);
             this.flowLayoutPanel.TabIndex = 15;
-            // 
-            // findTextBox
-            // 
-            this.findTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.findTextBox.Location = new System.Drawing.Point(388, 41);
-            this.findTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.findTextBox.Name = "findTextBox";
-            this.findTextBox.Size = new System.Drawing.Size(149, 28);
-            this.findTextBox.TabIndex = 14;
             // 
             // serchButt
             // 
             this.serchButt.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.serchButt.Location = new System.Drawing.Point(539, 41);
-            this.serchButt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.serchButt.Location = new System.Drawing.Point(291, 8);
+            this.serchButt.Margin = new System.Windows.Forms.Padding(2);
             this.serchButt.Name = "serchButt";
-            this.serchButt.Size = new System.Drawing.Size(87, 31);
+            this.serchButt.Size = new System.Drawing.Size(65, 25);
             this.serchButt.TabIndex = 13;
             this.serchButt.Text = "Buscar";
             this.serchButt.UseVisualStyleBackColor = true;
@@ -78,8 +66,8 @@
             // pictureBox
             // 
             this.pictureBox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox.Location = new System.Drawing.Point(3, 41);
-            this.pictureBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox.Location = new System.Drawing.Point(2, 33);
+            this.pictureBox.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(250, 200);
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -89,15 +77,15 @@
             // 
             // Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.listBoxInfo);
             this.Controls.Add(this.flowLayoutPanel);
-            this.Controls.Add(this.findTextBox);
             this.Controls.Add(this.serchButt);
             this.Controls.Add(this.pictureBox);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Menu";
-            this.Size = new System.Drawing.Size(759, 426);
+            this.Size = new System.Drawing.Size(538, 314);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -108,7 +96,6 @@
 
         private System.Windows.Forms.ListBox listBoxInfo;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
-        private System.Windows.Forms.TextBox findTextBox;
         private System.Windows.Forms.Button serchButt;
         private System.Windows.Forms.PictureBox pictureBox;
     }

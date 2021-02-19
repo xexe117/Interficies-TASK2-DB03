@@ -1,4 +1,5 @@
-﻿using System;
+﻿using productLibrary;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,6 +18,12 @@ namespace Task2DI03
         public Form1()
         {
             InitializeComponent();
+            menu1.ClickSizze += getInfo;
+        }
+
+        public void getInfo(object sender, clickEventArgs e)
+        {
+            textBox1.Text = e.ID;
         }
     }
 }

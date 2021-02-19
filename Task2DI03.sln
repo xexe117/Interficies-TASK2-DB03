@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2DI03", "Task2DI03\Task2DI03.csproj", "{07F10E2C-ECA7-422D-A99B-181EA6FD2DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productLibrary", "..\..\..\productLibrary\productLibrary\productLibrary.csproj", "{390E08B4-ED16-41E3-A3DB-F6852E2D90FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "productLibrary", "productLibrary\productLibrary\productLibrary.csproj", "{390E08B4-ED16-41E3-A3DB-F6852E2D90FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,3 +10,15 @@ C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibr
 C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.CopyComplete
 C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.dll
 C:\Users\Alumne\source\repos\productLibrary\productLibrary\obj\Debug\productLibrary.pdb
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\bin\Debug\productLibrary.dll.config
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\bin\Debug\productLibrary.dll
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\bin\Debug\productLibrary.pdb
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\bin\Debug\Dapper.dll
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\bin\Debug\Dapper.xml
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.csprojAssemblyReference.cache
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.Menu.resources
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.GenerateResource.cache
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.CoreCompileInputs.cache
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.csproj.CopyComplete
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.dll
+C:\Users\xesc2\Desktop\TaskDB03-DLL\Interficies-TASK2-DB03\productLibrary\productLibrary\obj\Debug\productLibrary.pdb

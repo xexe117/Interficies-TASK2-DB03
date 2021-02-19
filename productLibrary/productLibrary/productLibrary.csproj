@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clickEventArgs.cs" />
     <Compile Include="DataAcces.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Menu.cs">
